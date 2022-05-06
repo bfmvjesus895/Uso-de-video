@@ -74,22 +74,13 @@ a:hover {
     height: 4.6875em;
 }
 
-/**************************************/
-/*         Estilos de contacto        */
-/**************************************/
-
-input, textarea {
-    display: block;
-    width: 28.125em;
-    margin: 0;
-    border: thin solid #707070;
-    border-radius: 0.3125em;
-    outline: none;
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-}
-
-input {
-    height: 3em;
+/***************************************/
+/* Estilos de Contacto
+/***************************************/
+#contacto {
+	background:-webkit-linear-gradient(90deg, #d6860d 10%, #da2607 90%);
+	background:-moz-linear-gradient(90deg, hsl(234, 77%, 46%) 10%, #da2607 90%);
+	background: linear-linear-gradient(90deg, #1bbacf 10%, #da2607 90%);
+	color: rgb(216, 184, 184);
+    min-height: calc(100vh - 4.6875em);
 }

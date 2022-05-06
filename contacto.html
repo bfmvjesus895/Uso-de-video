@@ -38,29 +38,38 @@
           </nav>
     </header>
 
-    <section>
-      <div class="row justify-content-md-center espacio-row">
-        <div class="col-md-5">
-          <form method="POST">
-            <div class="form group">
-              <input type="text" class="form-control" id="nombre" name="nombre" placeholder="Nombre">
-            </div>
-            <div class="form group">
-              <input type="email" class="form-control" id="correo" name="correo" placeholder="Correo electronico">
-            </div>
-            <div class="form group">
-              <input type="text" class="form-control" id="asunto" name="asunto" placeholder="Asunto">
-            </div>
-            <div class="form group">
-              <input type="text" class="form-control" id="mensaje" name="mensaje" rows="5" placeholder="Escribe aqui tu mensaje">
-            </div>
-
-            <button id="btnComentarios" class="btn btn-primary">Envviar</button>
-          </form>
-        </div>
+    <section id="contacto">
+      <div class="container">
+          <div class="row justify-content-md-center espacio-row">
+              <div class="col-md-9">
+                  <h1 class="title"><strong>Contactanos</strong></h1>
+                  <p>Nos interesa conocer tu opinion</p>
+                  <pre>
+                  
+                  </pre>
+                  <div class="mb-3">
+                      <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Nombre completo">
+                      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                      <label for="exampleFormControlInput1" class="form-label">Asunto</label>
+                      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Asunto">
+                    </div>
+                    <div class="mb-3">
+                      <label for="exampleFormControlTextarea1" class="form-label">Comentario</label>
+                      <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe un comentario" rows="3"></textarea>
+                    </div>
+                  <div class="card rounded-3 border border-primary">
+                      <div class="card-footer footerCard">
+                          <button type="submit" class="btn btn-outline-primary col-6 rounded-pill">Enviar</button>
+                          <a href="index.html" class="btn btn-outline-secondary col-5 rounded-pill">Cancelar</a>
+                      </div>
+                  </div>
+              </div>
+          </div>
       </div>
-
-    </section>
+       
+  </section>
 
     <footer id="footer">
         <div class="container">
